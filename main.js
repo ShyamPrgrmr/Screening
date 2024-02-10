@@ -1,5 +1,12 @@
 function show_size($event){
+
+    console.log("clicked");
+
     let id = new String($event.target.id).split("_")[1]; 
+
+
+    document.getElementById("radio-button_"+id).checked = true; 
+
     setAllDiselect(); 
 
     if(id==2){

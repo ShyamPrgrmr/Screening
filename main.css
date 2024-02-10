@@ -32,13 +32,39 @@ body{
 }
 
 .container-heading{
-    display: flex;
-    flex-direction: row;
+    display: grid;
     text-align: center;
-    justify-content: center;
     color: #fd6b84;
+    grid-template-columns: auto 265px auto;
+    margin: 10px;
 }
 
+hr{
+    color: #ededed; 
+}
+
+.helper{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.additional--helper{
+    top:-7% !important; 
+}
+
+.container-box_float{
+    position: absolute;
+    background-color: #fd6b84;
+    top: -15%;
+    left: 80.5%;
+    width: max-content;
+    padding: 9px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
 
 .container-box{
     display: flex;
@@ -46,6 +72,7 @@ body{
     margin: 10px;
     border: solid 1px #d1d1d1;
     flex-direction: column;
+    position: relative;
 }
 
 .container-box_row{
@@ -98,6 +125,11 @@ body{
 .text--10{
     font-size: 12px;
 }
+
+.text--uppercase{
+    text-transform: uppercase;
+}
+
 
 .text-strikethrough{
     text-decoration:line-through; 

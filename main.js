@@ -1,9 +1,17 @@
 function show_size($event){
     let id = new String($event.target.id).split("_")[1]; 
     setAllDiselect(); 
+
+    if(id==2){
+        document.getElementById("float-menu").classList.add("additional--helper") 
+    }else{
+        document.getElementById("float-menu").classList.remove("additional--helper") 
+    }
+
     show_table(("size_table_" + id));
     highlightContainer(("container-box_"+id));
-    document.getElementById("amount").innerHTML = document.getElementById(("price_"+id)).innerHTML; 
+    document.getElementById("amount").innerHTML = document.getElementById(("price_"+id)).innerHTML;
+    
 }
 
 function highlightContainer(id){

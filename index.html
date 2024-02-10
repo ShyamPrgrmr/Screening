@@ -1,0 +1,262 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screening</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js"></script>     
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="container-heading">
+            <span class="before"></span>
+            <h1 class="container-heading_text">YAY! It's BOGO</h1>
+            <span class="after"></span>
+        </div>
+
+
+        <div class="container-box" id="container-box_1" name="container-box">
+
+            <div class="container-box_row">
+                
+                <div class="container-box_row-unit">
+                    <input type="radio" name="radio-button" id="radio-button_1"  class="container-box_row-unit--input" onchange="show_size(event)" >
+                    <div class="row-unit">
+                        <div class="row-unit_text">
+                            <p class="text--20">1 Unit</p>
+                            <p class="text--15 text-highlighted margin-left--15">10% Off</p>
+                        </div>
+                        <div class="row-unit_bot">
+                            <p class="text--15">Standard Price</p>
+                        </div>
+                        <div class="row-unit_box margin-top--15 hide" name="size_table"  id="size_table_1">
+                            <table>
+                                <tr>
+                                    <td></td>
+                                    <td class="text--10">Size</td>
+                                    <td class="text--10">Color</td>
+                                </tr>
+                                <tr>
+                                    <td class="text--10">#1</td>
+                                    <td>
+                                        <select>
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select>
+                                            <option>Red</option>
+                                            <option>Green</option>
+                                            <option>Yellow</option>
+                                            <option>White</option>
+                                        </select>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="text--10">#2</td>
+                                    <td>
+                                        <select>
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>L</option>
+                                            <option>XL</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select>
+                                            <option>Red</option>
+                                            <option>Green</option>
+                                            <option>Yellow</option>
+                                            <option>White</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>  
+                <div class="container-box_row-unit">
+                    <div class="row-unit">
+                        <div class="row-unit_text">
+                            <p class="text--20" id="price_1">$10.00 USD</p>
+                        </div>
+                        <div class="row-unit_bot">
+                            <p class="text--15 text-strikethrough">$24.00 USD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-box" id="container-box_2" name="container-box">
+            <div class="container-box_row">
+                <div class="container-box_row-unit">
+                    <input type="radio" name="radio-button" id="radio-button_2" class="container-box_row-unit--input" onchange="show_size(event)">
+                    <div class="row-unit">
+                        <div class="row-unit_text">
+                            <p class="text--20">2 Unit</p>
+                            <p class="text--15 text-highlighted margin-left--15">20% Off</p>
+                        </div>
+                        <div class="row-unit_bot">
+                            <p class="text--15"></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container-box_row-unit">
+                    <div class="row-unit">
+                        <div class="row-unit_text">
+                            <p class="text--20" id="price_2">$18.00 USD</p>
+                        </div>
+                        <div class="row-unit_bot">
+                            <p class="text--15 text-strikethrough">$34.00 USD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-unit_box margin-top--15 hide" name="size_table" id="size_table_2">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td class="text--10">Size</td>
+                        <td class="text--10">Color</td>
+                    </tr>
+                    <tr>
+                        <td class="text--10">#1</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Red</option>
+                                <option>Green</option>
+                                <option>Yellow</option>
+                                <option>White</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="text--10">#2</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Red</option>
+                                <option>Green</option>
+                                <option>Yellow</option>
+                                <option>White</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="container-box" id="container-box_3" name="container-box">
+            <div class="container-box_row">
+                <div class="container-box_row-unit">
+                    <input type="radio" name="radio-button" id="radio-button_3" class="container-box_row-unit--input" onchange="show_size(event)">
+                    <div class="row-unit">
+                        <div class="row-unit_text">
+                            <p class="text--20">3 Unit</p>
+                            <p class="text--15 text-highlighted margin-left--15">30% Off</p>
+                        </div>
+                        <div class="row-unit_bot">
+                            <p class="text--15"></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container-box_row-unit">
+                    <div class="row-unit">
+                        <div class="row-unit_text">
+                            <p class="text--20" id="price_3">$24.00 USD</p>
+                        </div>
+                        <div class="row-unit_bot">
+                            <p class="text--15 text-strikethrough">$44.00 USD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-unit_box margin-top--15 hide" name="size_table" id="size_table_3">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td class="text--10">Size</td>
+                        <td class="text--10">Color</td>
+                    </tr>
+                    <tr>
+                        <td class="text--10">#1</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Red</option>
+                                <option>Green</option>
+                                <option>Yellow</option>
+                                <option>White</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="text--10">#2</td>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Red</option>
+                                <option>Green</option>
+                                <option>Yellow</option>
+                                <option>White</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="container-amount">
+            <p class="text--15 pink-color">Free Delivery</p>
+            <p class="text--20" >Total : <span id="amount">$0</span></p>
+        </div>
+
+        <div class="container-submit">
+            <button class="button-submit">+ Add To Cart</button>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

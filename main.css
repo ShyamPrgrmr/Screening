@@ -1,0 +1,176 @@
+
+*{
+    box-sizing: content-box;
+    font-family: "Gill Sans Extrabold", sans-serif;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+.container{
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #d1d1d1;
+    width:40%;
+    height: max-content;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-heading{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    color: #fd6b84;
+}
+
+
+.container-box{
+    display: flex;
+    padding: 25px;
+    margin: 10px;
+    border: solid 1px #d1d1d1;
+    flex-direction: column;
+}
+
+.container-box_row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container-box_row-unit{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-unit{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.row-unit_text{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-unit_bot{
+    margin-top: 5px;
+    display: flex;
+}
+
+
+.margin-left--15{
+    margin-left: 15px;
+}
+
+.margin-top--15{
+    margin-top: 15px;
+}
+
+.text--20{
+    font-size: 20px;
+}
+
+.text--15{
+    font-size: 15px;
+}
+
+.text--10{
+    font-size: 12px;
+}
+
+.text-strikethrough{
+    text-decoration:line-through; 
+    color: #b5b1b0;
+}
+
+.text-highlighted{
+    background-color: #fd6b84;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.container-box_row-unit--input{
+    height: max-content;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+
+td{
+    padding: 3px;
+}
+
+td > select {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 4 30 4 4;
+    caret-color: black
+}
+
+
+.hide{
+    display: none;
+}
+
+.selected_container{
+  background-color: #fd6b8414;
+  border: solid 3px #fd6b84;
+}
+
+.pink-color{
+    color: #fd6b84;
+    font-weight: 700;
+}
+
+
+.container-amount{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+
+.container-submit{
+    margin-top: 20px;
+}
+
+.button-submit{
+    cursor: pointer;
+    background-color: #fd6b84;
+    border: none;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+
+
+
